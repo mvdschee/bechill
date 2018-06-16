@@ -1,0 +1,11 @@
+version: '2'
+services:
+  bechill:
+    container_name: bechill
+    build:
+      context: ./
+      dockerfile: .docker/node/Dockerfile
+    volumes:
+      - ./:/var/www/app
+    ports:
+      - 8100:8100
