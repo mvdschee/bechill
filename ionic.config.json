@@ -1,0 +1,8 @@
+{
+  "name": "bechill",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
